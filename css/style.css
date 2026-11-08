@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: aqua;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    flex: 1;
+}
+
+.menu_lateral {
+    grid-column: 1/2;
+    background-color: brown;
+}
+
+.board {
+    grid-column: 2/7;
+    background-color: blueviolet;
+}
+
+.calendario_eventos {
+    grid-column: 7/9;
+    background-color: cadetblue;
+}
+
+footer {
+    background-color: #ffff00;
+}
